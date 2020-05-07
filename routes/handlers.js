@@ -32,7 +32,7 @@ router.get('/all', (req, res) => {
 
 
 
-// Adding and Update burger section
+
 router.post("/add", function (req, res) {
     const burgerName = req.body.burger_name;
     const isFavorite = req.body.isFavorite;
