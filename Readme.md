@@ -29,6 +29,11 @@ Using an home-grown ORM, the app has 3 basic CRUD functions...
 
   * ![Full Size](eat-da-burger.png)
 
-/play greatjob Really love making this app
+ Really love making this app
 
-# /play whoomp
+
+## Authors
+[GitHub](https://github.com/sn-1)
+
+### Heroku
+check out the launched app on Heroku [here](https://eat-da-burger-nawrin.herokuapp.com)!
