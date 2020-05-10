@@ -10,14 +10,12 @@ $(document).ready(function() {
   var audioWhine4 = new Audio('http://soundbible.com/mp3/Lion-SoundBible.com-621763115.mp3');
 
 
-//   // Array of sounds
   var soundArray = [audioWhine0, audioWhine1, audioWhine2, audioWhine3, audioWhine4];
 
 
 //   // Click Listener for Whine Button
   $('.whine-button').on("click", function(){
 
-//     // Generate a random number (from 0 to length of array)
     var i = Math.floor(Math.random()*soundArray.length);
 
     soundArray[i].play();

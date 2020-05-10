@@ -1,4 +1,3 @@
-
 <div class="row">
   <center>
     <!-- ready to eat -->
@@ -8,9 +7,9 @@
 
         {{#each burgers}}
           {{#unless devoured}}
-          <form action="burger/eat/{{id}}" method="POST">
+          <form action="burger/eat/" method="POST">
             <div class="input-group">
-              <li class="form-control">{{id}}. {{burger_name}}</li>
+              <li class="form-control"> {{burger_name}}</li>
                 <span class="input-group-btn">
                   <button class="btn danger devour-button" type="submit">Devour It!</button>
                 </span>
@@ -31,7 +30,7 @@
         {{#each burgers}}
           {{#if this.devoured}}
             <div class="input-group">
-              <li class="form-control">{{this.id}}. {{this.burger_name}}</li>
+              <li class="form-control">{{this.burger_name}}</li>
                 <span class="input-group-btn">
                   <button class="btn btn-light devour-button" type="submit">Whine!</button>
                 </span>
