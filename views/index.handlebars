@@ -3,17 +3,16 @@
   <center>
     <!-- ready to eat -->
     <div class="col-md-6">
-      <h4 class="red_font">Ready to eat!</h4>
+      <h4 class="purple_font">Ready to eat!</h4>
       <div id="ready_to_eat">
 
-        <!-- Dynamically Insert Ready Burgers Here -->
         {{#each burgers}}
           {{#unless devoured}}
           <form action="burger/eat/{{id}}" method="POST">
             <div class="input-group">
               <li class="form-control">{{id}}. {{burger_name}}</li>
                 <span class="input-group-btn">
-                  <button class="btn btn-success devour-button" type="submit">Devour It!</button>
+                  <button class="btn danger devour-button" type="submit">Devour It!</button>
                 </span>
             </div>
           </form>
@@ -25,16 +24,16 @@
 
     <!-- already eaten -->
     <div class="col-md-6">
-      <h4 class="red_font">Already eaten!</h4>
+      <h4 class="purple_font">Already eaten!</h4>
       <div id="already_eaten">
 
-        <!-- Dynamically Insert Eaten Burgers Here -->
+   
         {{#each burgers}}
           {{#if this.devoured}}
             <div class="input-group">
               <li class="form-control">{{this.id}}. {{this.burger_name}}</li>
                 <span class="input-group-btn">
-                  <button class="btn btn-success devour-button" type="submit">Whine!</button>
+                  <button class="btn btn-light devour-button" type="submit">Whine!</button>
                 </span>
             </div>
           {{/if}}

@@ -26,7 +26,7 @@
 
       <!-- Page Title -->
       <center>
-        <h1 class="red_font">Eat da Burger! <small class="tiny_text">With a background sound effects</small></h1>
+        <h1 class="main_font">Eat da Burger! <small class="tiny_text">With a background sound effects</small></h1>
       </center>
       
       <br>
@@ -38,17 +38,15 @@
 
       <br><br>
 
-      <!-- Input New Burgers Form -->
       <form action="burger/create" method="POST"> 
         
         <!-- Text Area Input -->
         <div class="row">
-          <!-- Empty Div to help center textarea -->
           <div class="col-md-3"></div> 
 
           <!-- Burger Input Box -->
           <div class="form-group col-md-6">
-            <center><label for="new_burger" class="red_font">Request a new burger and place your order!</label></center>
+            <center><label for="new_burger" class="purple_font">Request a new burger and place your order!</label></center>
             <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
           </div>
 
@@ -58,7 +56,7 @@
       
         <!-- Submit Button -->
         <center>
-          <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
+          <button id="submit-button" type="submit"class="btn submit">Place Order</button>
         </center>
 
       </form>
@@ -67,10 +65,10 @@
 
     </div>
 
-    <!-- Link in jQuery -->
+    <!-- Link of jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <!-- Link in Local JavaScript (for sound effects) -->
+    <!-- Link of JavaScript for sound effects -->
     <script src="/assets/javascript/burger_sounds.js"></script>
 
   </body>

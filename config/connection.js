@@ -14,6 +14,5 @@ else{
   });
 }
 
-
 //Connection
 module.exports = connection;

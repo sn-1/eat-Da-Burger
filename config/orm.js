@@ -1,4 +1,3 @@
-
 var connection = require('./connection.js');
 
 
@@ -11,12 +10,10 @@ connection.connect(function(err) {
   console.log('connected as id ' + connection.threadId);
 });
 
-
 var orm = {
 
-
+ 
   selectAll: function(callback) {
-
     connection.query('SELECT * FROM burgers', function (err, result) {
       if (err) throw err;
       callback(result);
@@ -29,6 +26,8 @@ var orm = {
     var d = new Date();
     var timestamp = ''+ d.getFullYear() + '-'; 
     var month = '' + (d.getMonth() + 1); 
+
+
       if(month.length == 1){
         month = '0' + month;
       }
@@ -43,7 +42,7 @@ var orm = {
         hour = '0' + hour;
       }
     timestamp += hour + ':';
-    var minute = '' + d.getMinutes();
+    var minute = '' + d.getMinutes(); 
       if(minute.length == 1){
         minute = '0' + minute;
       }
@@ -53,7 +52,8 @@ var orm = {
         second = '0' + second;
       }
     timestamp += second;
-
+   
+    // MySQL Query
     connection.query('INSERT INTO burgers SET ?', {
       burger_name: burger_name,
       devoured: false,
@@ -74,5 +74,6 @@ var orm = {
   }
 
 };
+
 
 module.exports = orm;
