@@ -3,11 +3,11 @@
   <head>
     <title>Eat da Burger!</title>
     <!-- Tab Image -->
-    <link rel="icon" href="../../public/assets/img/Krabby_Patty.png">
+    <link rel="icon" href="/assets/img/pngguru.com.png">
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Custom css -->
-    <link rel="stylesheet" href="../../public/assets/css/burger_style.css">
+    <link rel="stylesheet" href="/assets/css/burger_style.css">
   </head>
   <body>
   
@@ -19,13 +19,13 @@
       <!-- Burger Image -->
       <section>
         <div class="row">
-          <img src="../../public/assets/img/Krabby_Patty.png">
+           <img src="/assets/img/pngguru.com.png">
         </div>
       </section>
 
       <!-- Page Title -->
       <section>
-        <h1 id="main_font">Eat da Burger! <small class="tiny_text">With a sound effect</small></h1>
+        <h1 class="main_font">Eat da Burger! <small class="tiny_text">Best with a side of sound.</small></h1>
       </section>
       
       <br>
@@ -37,38 +37,40 @@
           <div class="col-md-6">
             <h4 class="purple_font">Ready to eat!</h4>
             <div id="ready_to_eat">
+
+              <!-- Dynamically Insert Ready Burgers Here -->
               <div class="input-group">
-                <li class="form-control">Big mac</li>
+                <li class="form-control">1. Big mac</li>
                 <span class="input-group-btn devour-button">
                   <button class="btn danger" type="button">Devour It!</button>
                 </span>
               </div>
                                                 
               <div class="input-group">
-                <li class="form-control">Krabby Patty</li>
+                <li class="form-control">2.Krabby Patty</li>
                 <span class="input-group-btn devour-button">
                   <button class="btn danger" type="button">Devour It!</button>
                 </span>
-              </div> 
+              </div>
 
             </div>
           </div>
 
-          <!-- Right side already eaten -->
+          <!-- Right side (already eaten) -->
           <div class="col-md-6">
             <h4 class="purple_font">Already eaten!</h4>
             <div id="already_eaten">
 
               <!-- Dynamically Insert Ready Burgers Here -->
               <div class="input-group">
-                <li class="form-control">Krabby Patty</li>
+                <li class="form-control">3. Krabby Patty</li>
                 <span class="input-group-btn whine-button">
                   <button class="btn btn-light" type="button">Whine!</button>
                 </span>
               </div>
 
               <div class="input-group">
-                <li class="form-control">Big Mac</li>
+                <li class="form-control">4. Big Mac</li>
                 <span class="input-group-btn whine-button">
                   <button class="btn btn-light" type="button">Whine!</button>
                 </span>
@@ -81,27 +83,24 @@
 
       <br><br>
 
+      <!-- Input New Burgers Box -->        
       <div class="row">
 
-    
         <div class="col-md-3"></div> 
 
-      
         <div class="form-group col-md-6">
-          <section>
-            <label for="new_burger" class="main_font">Request a new burger and place your order!</label>
-          </section>
+          <section><label class="purple_font">Request a new burger and place your order!</label></section>
           <textarea class="form-control" columns="8" rows="4" id="new_burger"></textarea>
         </div>
 
-     
+
         <div class="col-md-3"></div> 
 
       </div>
     
       <!-- Submit Button -->
       <section>
-        <button id="submit-button" type="button" class="btn submit">Place Order</button>
+        <button id="submit-button" type="button" class="btn btn-danger">Place Order</button>
       </section>
 
     </div>

@@ -13,7 +13,7 @@ $(document).ready(function() {
   var soundArray = [audioWhine0, audioWhine1, audioWhine2, audioWhine3, audioWhine4];
 
 
-//   // Click Listener for Whine Button
+//Click Listener for Whine Button
   $('.whine-button').on("click", function(){
 
     var i = Math.floor(Math.random()*soundArray.length);

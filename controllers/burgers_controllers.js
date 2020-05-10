@@ -1,7 +1,7 @@
 
 var express = require('express');
 var router = express.Router();
-var burger = require('../models/burger.js')
+var burger = require('../models/burger.js');
 
 router.get('/', function (req, res) {
   res.redirect('/index');
@@ -25,7 +25,7 @@ router.post('/burger/create', function (req, res) {
 
 
 // Devour a Burger
-router.post('/burger/eat/', function (req, res) {
+router.post('/burger/eat/:id', function (req, res) {
   burger.updateOne(req.params.id, function() {
     res.redirect('/index');
   });
