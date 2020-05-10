@@ -4,7 +4,7 @@
 
 ## But the sad part is you can't order :x:
 
-## :fries: or :pizza:
+# :fries: or :pizza:
 
 
 ### Languages/Technologies
@@ -36,4 +36,4 @@ Using an home-grown ORM, the app has 3 basic CRUD functions...
 [GitHub](https://github.com/sn-1)
 
 ### Heroku
-check out the launched app on Heroku [here](https://eat-da-burger-nawrin.herokuapp.com)!
+Please check out the launched app on Heroku [here](https://eat-da-burger-nawrin.herokuapp.com)! :simple_smile:
