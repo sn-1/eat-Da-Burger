@@ -2,7 +2,7 @@
 -- CREATE DATABASE burgers_db;
 
 
-USE si3slgjn8njr0csm;
+USE tuuz6ycj6rtf6p3m;
 
 
 CREATE TABLE burgers(
