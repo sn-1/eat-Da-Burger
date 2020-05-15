@@ -36,5 +36,5 @@ Using an home-grown ORM, the app has 3 basic CRUD functions...
 [GitHub](https://github.com/sn-1)
 
 ### Heroku
-Please check out the launched app on Heroku [here](https://eat-da-burger-nawrin.herokuapp.com)! 
+Please check out the launched app on Heroku [here](https://desolate-anchorage-67292.herokuapp.com/index)! 
 
