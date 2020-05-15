@@ -1,6 +1,8 @@
-CREATE DATABASE burgers_db;
+-- DROP DATABASE IF EXISTS  burgers_db;
+-- CREATE DATABASE burgers_db;
 
-USE burgers_db;
+
+USE si3slgjn8njr0csm;
 
 
 CREATE TABLE burgers(
