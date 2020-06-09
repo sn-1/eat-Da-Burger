@@ -14,17 +14,12 @@
 * Handlebars
 
 ### Functionality
+
 Using an home-grown ORM, the app has 3 basic CRUD functions...
   1. READ all entries from the MySQL database and display them to the DOM using Handlebars.
   2. UPDATE a selected burger by clicking "Devour It"
   3. CREATE a new burger using the "Place Order" form 
 
-### demo
-
-  * ![Full Size](Untitled_ May 10, 2020 2_11 AM.webm)
-
-
-  
 ### demo
 
   * ![Full Size](eat-da-burger.png)
